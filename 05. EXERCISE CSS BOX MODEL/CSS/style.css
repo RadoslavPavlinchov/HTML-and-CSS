@@ -1,0 +1,30 @@
+@import url('reset.css');
+@import url('gallery.css');
+
+html {
+    font-size: 21px;
+}
+
+.site {
+    max-width: 60em;
+    margin: 2em auto;
+}
+
+.grid li {
+    display: inline-block;
+    background: #666;
+    color: #666;
+    margin-bottom: 0.5%;
+}
+
+.grid.colomns-c4 li {
+    width: 24%;
+}
+
+.grid.colomns-c3 li {
+    width: 31%;
+}
+
+.grid.colomns-c2 li {
+    width: 48%;
+}
