@@ -1,0 +1,43 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.container {
+    background: #F00;
+    /* overflow: hidden; */
+}
+
+.main {
+    background: #F0F;
+}
+
+.aside {
+    float: left;
+    width: 50%;
+    background: #FF0;
+    padding: 1em;
+}
+
+.image {
+    /* display: none; */
+    width: 50%;
+    background: #000;
+    float: left;
+    margin: 0 1em 1em 0;
+}
+
+strong {
+    display: inline-block;
+    background: #FFF;
+    padding: 1em;
+}
+
+.image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.cleaner {
+    clear: both;
+}
